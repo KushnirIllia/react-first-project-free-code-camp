@@ -12,6 +12,32 @@ code {
 		monospace;
 }
 
+/* ---------------------------------- */
+.header__menu {
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 30px;
+}
+.header__logo {
+}
+.menu__body {
+	flex: 0 1 400px;
+}
+.menu__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+.menu__item {
+}
+.menu__link {
+}
+
+/* ---------------------------------- */
 .main-section {
 	padding: 50px;
 }
@@ -19,8 +45,8 @@ code {
 	margin-bottom: 20px;
 }
 .main-section__image {
-  width: 40px;
+	width: 40px;
 }
 .main-section__image img {
-  max-width: 100%;
+	max-width: 100%;
 }

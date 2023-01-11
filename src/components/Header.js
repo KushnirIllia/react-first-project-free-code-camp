@@ -1,9 +1,10 @@
+import reactLogo from '../images/react-logo.png'
 function Header() {
 	return (
 		<header className="header">
 			<div className="header__menu menu">
 				<a href="" className="header__logo">
-					<img src="./react-logo.png" alt="" width={"40px"} />
+					<img src={reactLogo} alt="" width={"40px"} />
 				</a>
 				<nav className="menu__body">
 					<ul className="menu__list">
